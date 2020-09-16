@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tic</class>
+ <widget class="QWidget" name="Tic">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="startLb">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>您选择的始发站为：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="endLb">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>您选择的终点站为：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="throughLb">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>途中共经过</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TicLb">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>360</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择票数：</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="TicSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>360</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="backLb">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>0</y>
+     <width>140</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>按ESC键返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
