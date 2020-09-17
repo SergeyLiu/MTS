@@ -4,5 +4,6 @@
         <file>res/Icon.jpg</file>
         <file>res/welcomeCha.jpg</file>
         <file>res/process.jpg</file>
+        <file>res/weilcome.jpg</file>
     </qresource>
 </RCC>

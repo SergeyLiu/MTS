@@ -37,7 +37,7 @@ void welcomeScene::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
     QPixmap pix;
-    pix.load(":/res/welcomeCha.jpg");
+    pix.load(":/res/weilcome.jpg");
     painter.drawPixmap(0, 0, this->width(), this->height(), pix);
 }
 
